@@ -1,9 +1,12 @@
 import React from "react";
-function Footer () {
+
+function Footer (props) {
+   const Hello = "Hello Iam Kundan Nandy"
+
   return (
     <div>
     <h1>
-    Kundan Nandy
+      {Hello}
     </h1>
     </div>
     );
