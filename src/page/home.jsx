@@ -1,9 +1,9 @@
 import React from "react";
+import Slider from "../comp/Intro"
 function Home () {
   return(
     <div>
-    <h1>hello react</h1>
-    <p>Kundan</p>
+    <Slider/>
     </div>
     );
 }
